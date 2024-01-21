@@ -32,13 +32,12 @@ export default function HomeCV() {
                 </div>
                 <div className="text_typing">
                   <p>
-                    I'm a&nbsp;
                     <TypeAnimation
                       sequence={[
                         // Same substring at the start will only be typed out once, initially
-                        "Freelancer",
+                        "Fresher ReactJS",
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        "UI/UX Designer",
+                        "Front-end Developer",
                         1000,
                         "Web Developer",
                         1000,

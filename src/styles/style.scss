@@ -424,7 +424,7 @@ img.svg {
       height: auto;
       float: left;
       position: relative;
-      left: -5px;
+      left: 5px;
       margin-bottom: 10px;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -433,7 +433,8 @@ img.svg {
         margin: 0px;
         list-style-type: none;
         li {
-          margin: 0px 10px 0px 0px;
+          margin: 0px 25px 0px 0px;
+
           display: inline-block;
           &:last-child {
             margin-right: 0px;
@@ -1063,8 +1064,8 @@ img.svg {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   background-color: $background-color_5;
-  padding: 100px 0px;
-  // margin-bottom: 100px;
+  padding: 105px 0px;
+  margin: 80px 0;
   .inner_wrap {
     width: 100%;
     height: auto;
@@ -1991,15 +1992,23 @@ img.svg {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  .leftbox {
-    width: 40%;
+  margin-bottom: 100px;
+
+  .contact-box {
+    margin: 0 auto;
+    width: 50%;
     height: auto;
-    float: left;
-    padding-right: 40px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+
+    h4 {
+      text-align: center;
+    }
     .short_info_wrap {
+      background-color: white;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      padding: 30px;
       width: 100%;
       height: auto;
       clear: both;
@@ -2007,6 +2016,7 @@ img.svg {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box;
+      border-radius: 5px;
       ul {
         margin: 0px;
         list-style-type: none;
@@ -2029,13 +2039,13 @@ img.svg {
       }
     }
   }
-  .rightbox {
-    width: 60%;
-    height: auto;
-    float: right;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  @media only screen and (max-width: 768px) {
+    .contact-box {
+      width: 95%;
+      .short_info_wrap {
+        padding: 5px;
+      }
+    }
   }
 }
 .arlo_tm_contact_wrap {

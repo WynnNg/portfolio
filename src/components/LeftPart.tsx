@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react";
 import reactLogo from "@/assets/img/logo/react-logo-white.png";
 import { isMobile } from "react-device-detect";
+import {
+  ChromeFilled,
+  FacebookFilled,
+  GithubFilled,
+  MailFilled,
+} from "@ant-design/icons";
 
 interface IProps {
   hideLeftPart: boolean;
@@ -90,28 +96,26 @@ export default function LeftPart(props: IProps) {
             <div className="social_wrap">
               <ul>
                 <li>
-                  <a href="#">
-                    <i className="xcon-facebook"></i>
+                  <a href="mailto:nguyenhaiphucnguyen.work@gmail.com">
+                    <MailFilled />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="xcon-twitter"></i>
+                  <a href="https://nguyenhaiphucnguyen.io.vn/" target="_blank">
+                    <ChromeFilled />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="xcon-linkedin"></i>
+                  <a href="https://github.com/WynnNg" target="_blank">
+                    <GithubFilled />
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <i className="xcon-instagram"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="xcon-behance"></i>
+                  <a
+                    href="https://www.facebook.com/phucnguyen.nguyenhai.30/"
+                    target="_blank"
+                  >
+                    <FacebookFilled />
                   </a>
                 </li>
               </ul>
