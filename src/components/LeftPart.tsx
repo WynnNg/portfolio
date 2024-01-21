@@ -51,7 +51,7 @@ export default function LeftPart(props: IProps) {
                   onClick={() => setActive("#home")}
                   className={active === "#home" ? "active" : ""}
                 >
-                  Home
+                  TRANG CHỦ
                 </a>
               </li>
               <li>
@@ -60,7 +60,7 @@ export default function LeftPart(props: IProps) {
                   onClick={() => setActive("#about")}
                   className={active === "#about" ? "active" : ""}
                 >
-                  About
+                  GIỚI THIỆU
                 </a>
               </li>
               <li>
@@ -69,7 +69,7 @@ export default function LeftPart(props: IProps) {
                   onClick={() => setActive("#skills")}
                   className={active === "#skills" ? "active" : ""}
                 >
-                  Skills
+                  KỸ NĂNG
                 </a>
               </li>
               <li>
@@ -78,7 +78,7 @@ export default function LeftPart(props: IProps) {
                   onClick={() => setActive("#projects")}
                   className={active === "#projects" ? "active" : ""}
                 >
-                  Projects
+                  DỰ ÁN
                 </a>
               </li>
               <li>
@@ -87,7 +87,7 @@ export default function LeftPart(props: IProps) {
                   onClick={() => setActive("#contact")}
                   className={active === "#contact" ? "active" : ""}
                 >
-                  Contact
+                  LIÊN LẠC
                 </a>
               </li>
             </ul>

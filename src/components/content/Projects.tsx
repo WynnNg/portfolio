@@ -127,7 +127,7 @@ export default function Projects() {
         <div className="arlo_tm_services_wrap">
           <div className="container">
             <div className="arlo_tm_title_holder">
-              <h3>My Projects</h3>
+              <h3>DỰ ÁN</h3>
               <span>Các dự án đã hoàn thiện</span>
             </div>
             <div className="list_wrap">

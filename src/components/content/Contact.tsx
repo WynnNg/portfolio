@@ -12,8 +12,8 @@ export default function Contact() {
       <div className="arlo_tm_section" id="contact">
         <div className="container">
           <div className="arlo_tm_title_holder contact">
-            <h3>Contact Me</h3>
-            <span>Get in touch with me</span>
+            <h3>LIÊN LẠC</h3>
+            <span>Thông tin liên lạc của tôi</span>
           </div>
         </div>
         <div className="arlo_tm_footer_contact_wrapper_all">
@@ -21,7 +21,7 @@ export default function Contact() {
             <div className="container">
               <div className="contact-box">
                 <div className="arlo_tm_mini_title_holder contact">
-                  <h4>Get in Touch</h4>
+                  <h4>Kết nối với tôi</h4>
                 </div>
                 <div className="short_info_wrap">
                   <ul>

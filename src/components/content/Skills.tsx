@@ -8,8 +8,8 @@ export default function Skills() {
         <div className="arlo_tm_skills_wrap">
           <div className="container">
             <div className="arlo_tm_title_holder">
-              <h3>Skills</h3>
-              <span>Các dự án đã hoàn thiện</span>
+              <h3>KỸ NĂNG</h3>
+              <span>Các kỹ năng hiện tại của tôi</span>
             </div>
             <div className="inner_wrap">
               <div className="leftbox">

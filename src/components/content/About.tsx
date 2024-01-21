@@ -21,8 +21,8 @@ export default function About() {
         <div className="arlo_tm_about_wrapper_all">
           <div className="container">
             <div className="arlo_tm_title_holder">
-              <h3>About Me</h3>
-              <span>Main informations about me</span>
+              <h3>GIỚI THIỆU</h3>
+              <span>Những thông tin chính về tôi</span>
             </div>
             <div className="arlo_tm_about_wrap">
               <div className="author_wrap">
