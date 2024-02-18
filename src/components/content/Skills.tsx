@@ -18,7 +18,7 @@ export default function Skills() {
                 </div>
                 <ul>
                   <li>HTML/CSS</li>
-                  <li>Reponsive Website</li>
+                  <li>Responsive Website</li>
                   <li>JavaScript / TypeScript</li>
                   <li>Bootstrap / Ant Design</li>
                   <li>Redux Toolkit / React Query</li>
@@ -26,74 +26,40 @@ export default function Skills() {
                 </ul>
               </div>
               <div className="rightbox">
-                <div className="progress_bar_wrap_total">
-                  <div
-                    className="arlo_tm_progress_wrap"
-                    data-size="small"
-                    data-round="c"
-                    data-strip="off"
-                  >
-                    <div className="arlo_tm_progress">
-                      <span>
-                        <span className="label">HTML/CSS</span>
-                        <span className="number">90%</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <ProgressBar
-                          completed={90}
-                          bgColor="#333"
-                          height="5px"
-                          isLabelVisible={false}
-                        />
-                      </div>
-                    </div>
-                    <div className="arlo_tm_progress">
-                      <span>
-                        <span className="label">JavaScript/TypeScript</span>
-                        <span className="number">75%</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <ProgressBar
-                          completed={75}
-                          bgColor="#333"
-                          height="5px"
-                          isLabelVisible={false}
-                        />
-                      </div>
-                    </div>
-                    <div className="arlo_tm_progress">
-                      <span>
-                        <span className="label">
-                          Redux Toolkit / React Query
-                        </span>
-                        <span className="number">70%</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <ProgressBar
-                          completed={70}
-                          bgColor="#333"
-                          height="5px"
-                          isLabelVisible={false}
-                        />
-                      </div>
-                    </div>
-                    <div className="arlo_tm_progress">
-                      <span>
-                        <span className="label">
-                          ReactJS (JavaScript/TypeScript)
-                        </span>
-                        <span className="number">80%</span>
-                      </span>
-                      <div className="arlo_tm_bar_bg">
-                        <ProgressBar
-                          completed={80}
-                          bgColor="#333"
-                          height="5px"
-                          isLabelVisible={false}
-                        />
-                      </div>
-                    </div>
-                  </div>
+                <div className="arlo_tm_mini_title_holder">
+                  <h4>Chứng chỉ</h4>
+                </div>
+                <div>
+                  <p>
+                    <strong>Responsive Web Design:</strong>{" "}
+                    <a
+                      href="https://www.freecodecamp.org/certification/NguyenHaiPhucNguyen/responsive-web-design"
+                      target="_blank"
+                    >
+                      freecodecamp.org/certification/NguyenHaiPhucNguyen/responsive-web-design
+                    </a>
+                  </p>
+                  <p>
+                    <strong>React State Manager:</strong>
+                    <br />
+
+                    <a
+                      href="https://www.udemy.com/certificate/UC-3526ee15-8c15-4e46-b35a-e866e7bfbcee/"
+                      target="_blank"
+                    >
+                      udemy.com/certificate/UC-3526ee15-8c15-4e46-b35a-e866e7bfbcee/
+                    </a>
+                  </p>
+                  <p>
+                    <strong>React Ultimate:</strong>
+                    <br />
+                    <a
+                      href="https://www.udemy.com/certificate/UC-da9f2ead-b7c6-44ca-ac58-f0d48c069a70/"
+                      target="_blank"
+                    >
+                      udemy.com/certificate/UC-da9f2ead-b7c6-44ca-ac58-f0d48c069a70/
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import aboutImg from "@/assets/img/about/about-img.png";
-import cvPDF from "@/assets/Resume-Template.pdf";
+import cvPDF from "@/assets/Nguyen_Hai_Phuc_Nguyen-Fresher ReactJS.pdf";
 import Parallax from "parallax-js";
 import img550 from "@/assets/img/about/550x640.jpg";
 
@@ -48,81 +48,58 @@ export default function About() {
                 <div className="rightbox">
                   <div className="arlo_tm_mini_title_holder">
                     <h4>
-                      I'm Alan Michaelis and{" "}
+                      Tôi tên là Nguyễn Hải Phúc Nguyên
                       <span className="arlo_tm_animation_text_word"></span>
                     </h4>
                   </div>
                   <div className="definition">
                     <p>
-                      Hi! My name is <strong>Alan Michaelis</strong>. I am a Web
-                      Developer, and I'm very passionate and dedicated to my
-                      work. With 20 years experience as a professional Web
-                      developer, I have acquired the skills and knowledge
-                      necessary to make your project a success. I enjoy every
-                      step of the design process, from discussion and
-                      collaboration to concept and execution, but I find the
-                      most satisfaction in seeing the finished product do
-                      everything for you that it was created to do.
+                      Xin chào nhà tuyển dụng! Tên tôi là{" "}
+                      <strong>Nguyễn Hải Phúc Nguyên</strong>. Tôi mong muốn có
+                      cơ hội được làm việc trong lĩnh vực IT software. Mục tiêu
+                      hiện tại của tôi là hiểu sâu và hoàn thành tốt công việc
+                      của stack Front-end. Bên cạnh đó, tôi luôn sẵn sàng học
+                      hỏi công nghệ mới, phát triển bản thân ở những lĩnh vực
+                      khác để thích ứng với công việc mà công ty yêu cầu.
                     </p>
                   </div>
                   <div className="about_short_contact_wrap">
                     <ul>
                       <li>
                         <span>
-                          <label>Birthday:</label> 01.07.1990
+                          <label>Năm sinh:</label> 1998
                         </span>
                       </li>
                       <li>
                         <span>
-                          <label>Age:</label> 28
+                          <label>Nơi ở:</label> Tân Bình, HCM
                         </span>
                       </li>
                       <li>
                         <span>
-                          <label>City:</label> New York, USA
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <label>Interests:</label> Soccer, UFC
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <label>Study:</label> Chicago University
-                        </span>
-                      </li>
-                      <li>
-                        <span>
-                          <label>Degree:</label> Master
+                          <label>Github:</label> github.com/WynnNg
                         </span>
                       </li>
                       <li>
                         <span>
                           <label>Website:</label>{" "}
-                          <a href="#">www.mywebsite.com</a>
+                          <a href="#">nguyenhaiphucnguyen.io.vn</a>
                         </span>
                       </li>
-                      <li>
+                      {/* <li>
                         <span>
                           <label>Mail:</label>{" "}
-                          <a href="mailto:example@gmail.com">
-                            mymail&#64;gmail.com
+                          <a href="mailto:nguyenhaiphucnguyen.work@gmail.com">
+                            nguyenhaiphucnguyen.work&#64;gmail.com
                           </a>
                         </span>
-                      </li>
-                      <li>
-                        <span>
-                          <label>Phone:</label>{" "}
-                          <a href="#">+77 022 177 05 05</a>
-                        </span>
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <span>
                           <label>Twitter:</label>{" "}
                           <a href="#">&#64;myusername</a>
                         </span>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   <div className="buttons_wrap">

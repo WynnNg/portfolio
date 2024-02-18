@@ -1,6 +1,17 @@
 import React, { useState } from "react";
 import { Button, Divider, Modal } from "antd";
 import { FaReact } from "react-icons/fa";
+import {
+  SiAntdesign,
+  SiHtml5,
+  SiCss3,
+  SiBootstrap,
+  SiRedux,
+  SiSass,
+  SiReactrouter,
+  SiTypescript,
+} from "react-icons/si";
+
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 interface IProject {
@@ -36,89 +47,145 @@ export default function Projects() {
 
   const dataProject = [
     {
-      image: <FaReact size={50} />,
+      image: (
+        <span>
+          <FaReact size={45} /> &nbsp; <SiAntdesign size={45} /> &nbsp;
+          <SiRedux size={45} /> &nbsp; <SiSass size={45} /> &nbsp;{" "}
+          <SiReactrouter size={45} />
+        </span>
+      ),
       title: "Tiki Clone",
       shortDesc:
-        "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
+        "Project tự học cá nhân. Clone giao diện và một số tính năng cơ bản của trang Tiki",
       detail: {
-        desc: "",
-        technology: "",
-        member: "",
-        role: "",
-        demo: "",
-        github: "",
+        desc: `Module Auth: Chức năng đăng ký, đăng nhập, protected page, access_token, refresh_token.
+        
+        Module Users: CRUD user, Filter/Sorter, Import/Export CSV.
+        
+        Module Books: Admin (CRUD Books, Filter/Sorter, handle upload files), User (Hiển thị sách, hiển thị chi tiết sách).
+        
+        Module Orders: Xử lý giỏ hàng / đặt hàng.`,
+        technology: `React 18 - Vite - Ant Design - SCSS - React Router 6 -
+        Redux Toolkit - axios - APIs Backend được cung cấp sẵn.`,
+        member: "1",
+        role: "Front-end Developer",
+        demo: (
+          <a
+            href="https://tiki-clone.nguyenhaiphucnguyen.io.vn/"
+            target="_blank"
+          >
+            "https://tiki-clone.nguyenhaiphucnguyen.io.vn/"
+          </a>
+        ),
+        github: (
+          <a
+            href="https://github.com/WynnNg/tiki-clone-frontend"
+            target="_blank"
+          >
+            "https://github.com/WynnNg/tiki-clone-frontend"
+          </a>
+        ),
       },
     },
     {
-      image: <FaReact size={50} />,
-      title: "Website Clone Tiki",
+      image: (
+        <span>
+          <FaReact size={45} /> &nbsp; <SiSass size={45} /> &nbsp;{" "}
+          <SiTypescript size={45} />{" "}
+        </span>
+      ),
+      title: "Portfolio",
       shortDesc:
-        "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
+        "Project tự học cá nhân. Chuyển đổi giao diện portfolio mẫu sang React với TypeScript",
       detail: {
-        desc: "",
-        technology: "",
-        member: "",
-        role: "",
-        demo: "",
-        github: "",
+        desc: "Chuyển đổi giao diện portfolio mẫu sang React với TypeScript",
+        technology: "React 18 - Vite - TypeScript - SCSS",
+        member: "1",
+        role: "Front-end Developer",
+        demo: (
+          <a href="https://nguyenhaiphucnguyen.io.vn/" target="_blank">
+            "https://nguyenhaiphucnguyen.io.vn/"
+          </a>
+        ),
+        github: (
+          <a href="https://github.com/WynnNg/portfolio" target="_blank">
+            "https://github.com/WynnNg/portfolio "
+          </a>
+        ),
       },
     },
     {
-      image: <FaReact size={50} />,
-      title: "Website Clone Tiki",
+      image: (
+        <span>
+          <SiHtml5 size={45} /> &nbsp; <SiCss3 size={45} /> &nbsp;{" "}
+          <SiBootstrap size={45} />{" "}
+        </span>
+      ),
+      title: "Softy Pinko UI",
       shortDesc:
-        "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
+        "Sử dụng HTML/CSS và Bootstrap để tạo nên trang web tối ưu trên mọi giao diện người dùng.",
       detail: {
-        desc: "",
-        technology: "",
-        member: "",
-        role: "",
-        demo: "",
-        github: "",
+        desc: "Sử dụng HTML/CSS và Bootstrap để tạo nên trang web tối ưu trên mọi giao diện người dùng.",
+        technology: "HTML/CSS - Bootstrap.",
+        member: "1",
+        role: "Front-end Developer",
+        demo: (
+          <a
+            href="https://softy-pinko-ui.nguyenhaiphucnguyen.io.vn/"
+            target="_blank"
+          >
+            "https://softy-pinko-ui.nguyenhaiphucnguyen.io.vn/ "
+          </a>
+        ),
+        github: (
+          <a href="https://github.com/WynnNg/softy-pinko-ui" target="_blank">
+            "https://github.com/WynnNg/softy-pinko-ui"
+          </a>
+        ),
       },
     },
-    {
-      image: <FaReact size={50} />,
-      title: "Website Clone Tiki",
-      shortDesc:
-        "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
-      detail: {
-        desc: "",
-        technology: "",
-        member: "",
-        role: "",
-        demo: "",
-        github: "",
-      },
-    },
-    {
-      image: <FaReact size={50} />,
-      title: "Website Clone Tiki",
-      shortDesc:
-        "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
-      detail: {
-        desc: "",
-        technology: "",
-        member: "",
-        role: "",
-        demo: "",
-        github: "",
-      },
-    },
-    {
-      image: <FaReact size={50} />,
-      title: "Website Clone Tiki",
-      shortDesc:
-        "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
-      detail: {
-        desc: "",
-        technology: "",
-        member: "",
-        role: "",
-        demo: "",
-        github: "",
-      },
-    },
+    // {
+    //   image: <FaReact size={50} />,
+    //   title: "Website Clone Tiki",
+    //   shortDesc:
+    //     "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
+    //   detail: {
+    //     desc: "",
+    //     technology: "",
+    //     member: "",
+    //     role: "",
+    //     demo: "",
+    //     github: "",
+    //   },
+    // },
+    // {
+    //   image: <FaReact size={50} />,
+    //   title: "Website Clone Tiki",
+    //   shortDesc:
+    //     "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
+    //   detail: {
+    //     desc: "",
+    //     technology: "",
+    //     member: "",
+    //     role: "",
+    //     demo: "",
+    //     github: "",
+    //   },
+    // },
+    // {
+    //   image: <FaReact size={50} />,
+    //   title: "Website Clone Tiki",
+    //   shortDesc:
+    //     "Web design is a similar process of creation, with the intention of presenting the content on electronic pages ...",
+    //   detail: {
+    //     desc: "",
+    //     technology: "",
+    //     member: "",
+    //     role: "",
+    //     demo: "",
+    //     github: "",
+    //   },
+    // },
   ];
 
   return (
@@ -138,7 +205,7 @@ export default function Projects() {
                       <div className="inner" style={{ cursor: "pointer" }}>
                         <div className="icon">{item.image}</div>
                         <div className="title_service">
-                          <h3>{item.title}</h3>
+                          <h3 style={{ color: "#e3872d" }}>{item.title}</h3>
                         </div>
                         <div className="text">
                           <p>{item.shortDesc}</p>
@@ -183,31 +250,31 @@ export default function Projects() {
           <strong> Thông tin </strong>
         </h6>
         <p>
-          Công nghệ Front-end:{" "}
+          <strong>Công nghệ Front-end:</strong>{" "}
           {dataDetail && dataDetail.detail.technology
             ? dataDetail.detail.technology
             : "..."}
         </p>
         <p>
-          Số lượng thành viên:{" "}
+          <strong>Số lượng thành viên:</strong>{" "}
           {dataDetail && dataDetail.detail.member
             ? dataDetail.detail.member
             : "..."}
         </p>
         <p>
-          Vai trò:{" "}
+          <strong>Vai trò:</strong>{" "}
           {dataDetail && dataDetail.detail.role
             ? dataDetail.detail.role
             : "..."}
         </p>
         <p>
-          Demo:{" "}
+          <strong>Demo:</strong>{" "}
           {dataDetail && dataDetail.detail.demo
             ? dataDetail.detail.demo
             : "..."}
         </p>
         <p>
-          Link Github:{" "}
+          <strong>Link Github:</strong>{" "}
           {dataDetail && dataDetail.detail.github
             ? dataDetail.detail.github
             : "..."}

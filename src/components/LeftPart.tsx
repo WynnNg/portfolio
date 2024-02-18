@@ -39,7 +39,7 @@ export default function LeftPart(props: IProps) {
       >
         <div className="leftpart_inner">
           <div className="logo_wrap">
-            <a href="#">
+            <a href="#home">
               <img src={reactLogo} alt="desktop-logo" />
             </a>
           </div>
