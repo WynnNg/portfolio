@@ -23,8 +23,8 @@ interface IProject {
     technology: string;
     member: string;
     role: string;
-    demo: string;
-    github: string;
+    demo: JSX.Element;
+    github: JSX.Element;
   };
 }
 
