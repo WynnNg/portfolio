@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import aboutImg from "@/assets/img/about/about-img.png";
-import cvPDF from "@/assets/Nguyen_Hai_Phuc_Nguyen-Fresher ReactJS.pdf";
+import cvPDF from "@/assets/cv_nguyen_hai_phuc_nguyen_intern_reactjs.pdf";
 import Parallax from "parallax-js";
 import img550 from "@/assets/img/about/550x640.jpg";
 
@@ -67,7 +67,8 @@ export default function About() {
                     <ul>
                       <li>
                         <span>
-                          <label>Năm sinh:</label> 1998
+                          <label>Email:</label>{" "}
+                          nguyenhaiphucnguyen.work@gmail.com
                         </span>
                       </li>
                       <li>

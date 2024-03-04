@@ -31,7 +31,18 @@ export default function Skills() {
                 </div>
                 <div>
                   <p>
-                    <strong>Responsive Web Design:</strong>{" "}
+                    <strong>Javascript Algorithms And Data Structures:</strong>
+                    <br />
+                    <a
+                      href="https://www.freecodecamp.org/certification/NguyenHaiPhucNguyen/javascript-algorithms-and-data-structures-v8"
+                      target="_blank"
+                    >
+                      freecodecamp.org/certification/NguyenHaiPhucNguyen/javascript-algorithms-and-data-structures-v8
+                    </a>
+                  </p>
+                  <p>
+                    <strong>Responsive Web Design:</strong>
+                    <br />
                     <a
                       href="https://www.freecodecamp.org/certification/NguyenHaiPhucNguyen/responsive-web-design"
                       target="_blank"
