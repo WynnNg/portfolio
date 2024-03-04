@@ -67,26 +67,29 @@ export default function About() {
                     <ul>
                       <li>
                         <span>
-                          <label>Email:</label>{" "}
+                          <label>Email:</label>
+                          <br />
                           nguyenhaiphucnguyen.work@gmail.com
                         </span>
                       </li>
-                      <li>
+                      {/* <li>
                         <span>
                           <label>Nơi ở:</label> Tân Bình, HCM
                         </span>
-                      </li>
+                      </li> */}
                       <li>
                         <span>
-                          <label>Github:</label> github.com/WynnNg
+                          <label>Github:</label>
+                          <br />
+                          https://github.com/WynnNg
                         </span>
                       </li>
-                      <li>
+                      {/* <li>
                         <span>
                           <label>Website:</label>{" "}
                           <a href="#">nguyenhaiphucnguyen.io.vn</a>
                         </span>
-                      </li>
+                      </li> */}
                       {/* <li>
                         <span>
                           <label>Mail:</label>{" "}
