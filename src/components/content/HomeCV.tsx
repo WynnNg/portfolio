@@ -35,7 +35,7 @@ export default function HomeCV() {
                     <TypeAnimation
                       sequence={[
                         // Same substring at the start will only be typed out once, initially
-                        "Fresher ReactJS",
+                        "ReactJS Developer",
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
                         "Front-end Developer",
                         1000,

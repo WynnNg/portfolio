@@ -3,7 +3,7 @@ import reactLogo from "@/assets/img/logo/react-logo-white.png";
 import { isMobile } from "react-device-detect";
 import {
   ChromeFilled,
-  FacebookFilled,
+  GitlabOutlined,
   GithubFilled,
   MailFilled,
 } from "@ant-design/icons";
@@ -112,10 +112,10 @@ export default function LeftPart(props: IProps) {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/phucnguyen.nguyenhai.30/"
+                    href="https://gitlab.com/nguyenhaiphucnguyen"
                     target="_blank"
                   >
-                    <FacebookFilled />
+                    <GitlabOutlined />
                   </a>
                 </li>
               </ul>

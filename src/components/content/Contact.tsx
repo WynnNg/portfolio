@@ -3,6 +3,7 @@ import {
   FacebookFilled,
   GithubFilled,
   MailFilled,
+  GitlabOutlined
 } from "@ant-design/icons";
 import React from "react";
 
@@ -67,14 +68,14 @@ export default function Contact() {
                     <li>
                       <p>
                         <label>
-                          <FacebookFilled />
+                          <GitlabOutlined />
                         </label>
                         <span>
                           <a
-                            href="https://www.facebook.com/phucnguyen.nguyenhai.30/"
+                            href="https://gitlab.com/nguyenhaiphucnguyen"
                             target="_blank"
                           >
-                            &nbsp;&nbsp;&nbsp;fb/phucnguyen.nguyenhai.30/
+                            &nbsp;&nbsp;&nbsp;gitlab.com/nguyenhaiphucnguyen
                           </a>
                         </span>
                       </p>

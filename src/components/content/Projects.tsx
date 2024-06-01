@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Button, Divider, Modal } from "antd";
 import { FaReact } from "react-icons/fa";
+//@ts-ignore
+// import { RiNextjsFill } from "react-icons/ri";
 import {
   SiAntdesign,
   SiHtml5,
@@ -10,6 +12,9 @@ import {
   SiSass,
   SiReactrouter,
   SiTypescript,
+  SiMui,
+  SiNextdotjs
+
 } from "react-icons/si";
 
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -49,6 +54,48 @@ export default function Projects() {
     {
       image: (
         <span>
+          <SiNextdotjs size={45} /> &nbsp; <FaReact size={45} /> &nbsp;
+          <SiMui size={45} /> &nbsp; <SiSass size={45} /> &nbsp;
+          <SiTypescript size={45} />&nbsp;
+        </span>
+      ),
+      title: "SoundClound Clone",
+      shortDesc:
+        "Project tự học cá nhân. Clone giao diện và một số tính năng cơ bản của trang SoundCloud",
+      detail: {
+        desc: `Tính năng đănh nhập với thư viện Next-auth, hỗ trợ đăng nhập với Google/Github và tài khoản local của backend.
+        
+        Nghe nhạc với audio track ở footer
+        
+        Hiển thị wavetrack khi xem nhạc chi tiết
+        
+        Comment theo thời gian của wavetrack
+        
+        Tạo trang playlist/Like tracks`,
+        technology: `NextJS 13 - TypeScript - MUI - Next-auth - APIs Backend được cung cấp sẵn.`,
+        member: "1",
+        role: "Front-end Developer",
+        demo: (
+          <a
+            href="https://youtu.be/gUV79q-PMEQ"
+            target="_blank"
+          >
+            https://youtu.be/gUV79q-PMEQ
+          </a>
+        ),
+        github: (
+          <a
+            href="https://github.com/WynnNg/SoundCloud-Clone"
+            target="_blank"
+          >
+            https://github.com/WynnNg/SoundCloud-Clone
+          </a>
+        ),
+      },
+    },
+    {
+      image: (
+        <span>
           <FaReact size={45} /> &nbsp; <SiAntdesign size={45} /> &nbsp;
           <SiRedux size={45} /> &nbsp; <SiSass size={45} /> &nbsp;{" "}
           <SiReactrouter size={45} />
@@ -71,10 +118,10 @@ export default function Projects() {
         role: "Front-end Developer",
         demo: (
           <a
-            href="https://tiki-clone.nguyenhaiphucnguyen.io.vn/"
+            href="https://youtu.be/pCmP6zT2B4s"
             target="_blank"
           >
-            "https://tiki-clone.nguyenhaiphucnguyen.io.vn/"
+            https://youtu.be/pCmP6zT2B4s
           </a>
         ),
         github: (
@@ -82,7 +129,7 @@ export default function Projects() {
             href="https://github.com/WynnNg/tiki-clone-frontend"
             target="_blank"
           >
-            "https://github.com/WynnNg/tiki-clone-frontend"
+            https://github.com/WynnNg/tiki-clone-frontend
           </a>
         ),
       },
@@ -104,12 +151,12 @@ export default function Projects() {
         role: "Front-end Developer",
         demo: (
           <a href="https://nguyenhaiphucnguyen.io.vn/" target="_blank">
-            "https://nguyenhaiphucnguyen.io.vn/"
+            https://nguyenhaiphucnguyen.io.vn/
           </a>
         ),
         github: (
           <a href="https://github.com/WynnNg/portfolio" target="_blank">
-            "https://github.com/WynnNg/portfolio "
+            https://github.com/WynnNg/portfolio
           </a>
         ),
       },
@@ -134,12 +181,12 @@ export default function Projects() {
             href="https://softy-pinko-ui.nguyenhaiphucnguyen.io.vn/"
             target="_blank"
           >
-            "https://softy-pinko-ui.nguyenhaiphucnguyen.io.vn/ "
+            https://softy-pinko-ui.nguyenhaiphucnguyen.io.vn/
           </a>
         ),
         github: (
           <a href="https://github.com/WynnNg/softy-pinko-ui" target="_blank">
-            "https://github.com/WynnNg/softy-pinko-ui"
+            https://github.com/WynnNg/softy-pinko-ui
           </a>
         ),
       },

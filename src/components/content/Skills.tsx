@@ -23,6 +23,7 @@ export default function Skills() {
                   <li>Bootstrap / Ant Design</li>
                   <li>Redux Toolkit / React Query</li>
                   <li>ReactJS</li>
+                  <li>NextJS</li>
                 </ul>
               </div>
               <div className="rightbox">
