@@ -13,8 +13,9 @@ import {
   SiReactrouter,
   SiTypescript,
   SiMui,
-  SiNextdotjs
-
+  SiNextdotjs,
+  SiMysql,
+  SiPhp
 } from "react-icons/si";
 
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
@@ -59,7 +60,7 @@ export default function Projects() {
           <SiTypescript size={45} />&nbsp;
         </span>
       ),
-      title: "SoundClound Clone",
+      title: "SoundCloud Clone",
       shortDesc:
         "Project tự học cá nhân. Clone giao diện và một số tính năng cơ bản của trang SoundCloud",
       detail: {
@@ -157,6 +158,36 @@ export default function Projects() {
         github: (
           <a href="https://github.com/WynnNg/portfolio" target="_blank">
             https://github.com/WynnNg/portfolio
+          </a>
+        ),
+      },
+    },
+    {
+      image: (
+        <span>
+          <SiPhp size={45} /> &nbsp; <SiMysql size={45} /> &nbsp;
+          <SiHtml5 size={45} /> &nbsp; <SiCss3 size={45} /> &nbsp;
+          <SiBootstrap size={45} />
+        </span>
+      ),
+      title: "Users Manager",
+      shortDesc:
+        "Project backend tự học cá nhân. Xây dựng ứng dụng Users Manager cơ bản bằng PHP.",
+      detail: {
+        desc: "Project backend tự học cá nhân. Xây dựng ứng dụng Users Manager cơ bản bằng PHP với các tính năng: Đăng nhập / Đăng ký / Đăng xuất / Quên mật khẩu. Hiển thị / Thêm / Sửa / Xóa người dùng.",
+        technology: "PHP - MySQL - Bootstrap - HTML/CSS",
+        member: "1",
+        role: "Back-end Developer",
+        demo: (
+          <a
+            href=""
+          >
+            ...
+          </a>
+        ),
+        github: (
+          <a href="https://github.com/WynnNg/users_manager_backend_php " target="_blank">
+            https://github.com/WynnNg/users_manager_backend_php
           </a>
         ),
       },

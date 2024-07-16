@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import aboutImg from "@/assets/img/about/about-img.png";
-import cvPDF from "@/assets/cv_nguyen_hai_phuc_nguyen_reactjs_developer (1).pdf";
+import cvPDF from "@/assets/cv_nguyen_hai_phuc_nguyen_reactjs_developer.pdf";
 import Parallax from "parallax-js";
 import img550 from "@/assets/img/about/550x640.jpg";
 

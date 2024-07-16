@@ -13,65 +13,78 @@ export default function Skills() {
             </div>
             <div className="inner_wrap">
               <div className="leftbox">
-                <div className="arlo_tm_mini_title_holder">
-                  <h4>Kỹ Năng Front-End</h4>
+                <div >
+                  <div className="arlo_tm_mini_title_holder">
+                    <h4>Kỹ Năng Front-End</h4>
+                  </div>
+                  <ul>
+                    <li>HTML/CSS</li>
+                    <li>Responsive Website</li>
+                    <li>JavaScript / TypeScript</li>
+                    <li>Bootstrap / Ant Design</li>
+                    <li>Redux Toolkit / React Query</li>
+                    <li>ReactJS</li>
+                    <li>NextJS</li>
+                  </ul>
                 </div>
-                <ul>
-                  <li>HTML/CSS</li>
-                  <li>Responsive Website</li>
-                  <li>JavaScript / TypeScript</li>
-                  <li>Bootstrap / Ant Design</li>
-                  <li>Redux Toolkit / React Query</li>
-                  <li>ReactJS</li>
-                  <li>NextJS</li>
-                </ul>
+                <div className="skill_group">
+                  <div className="arlo_tm_mini_title_holder">
+                    <h4>Kỹ Năng Back-End</h4>
+                  </div>
+                  <ul>
+                    <li>MySQL</li>
+                    <li>PHP</li>
+                  </ul>
+                </div>
               </div>
               <div className="rightbox">
-                <div className="arlo_tm_mini_title_holder">
-                  <h4>Chứng chỉ</h4>
-                </div>
                 <div>
-                  <p>
-                    <strong>Javascript Algorithms And Data Structures:</strong>
-                    <br />
-                    <a
-                      href="https://www.freecodecamp.org/certification/NguyenHaiPhucNguyen/javascript-algorithms-and-data-structures-v8"
-                      target="_blank"
-                    >
-                      freecodecamp.org/certification/NguyenHaiPhucNguyen/javascript-algorithms-and-data-structures-v8
-                    </a>
-                  </p>
-                  <p>
-                    <strong>Responsive Web Design:</strong>
-                    <br />
-                    <a
-                      href="https://www.freecodecamp.org/certification/NguyenHaiPhucNguyen/responsive-web-design"
-                      target="_blank"
-                    >
-                      freecodecamp.org/certification/NguyenHaiPhucNguyen/responsive-web-design
-                    </a>
-                  </p>
-                  <p>
-                    <strong>React State Manager:</strong>
-                    <br />
+                  <div className="arlo_tm_mini_title_holder">
+                    <h4>Chứng chỉ</h4>
+                  </div>
+                  <div>
+                    <p>
+                      <strong>Javascript Algorithms And Data Structures:</strong>
+                      <br />
+                      <a
+                        href="https://www.freecodecamp.org/certification/NguyenHaiPhucNguyen/javascript-algorithms-and-data-structures-v8"
+                        target="_blank"
+                      >
+                        freecodecamp.org/certification/NguyenHaiPhucNguyen/javascript-algorithms-and-data-structures-v8
+                      </a>
+                    </p>
+                    <p>
+                      <strong>Responsive Web Design:</strong>
+                      <br />
+                      <a
+                        href="https://www.freecodecamp.org/certification/NguyenHaiPhucNguyen/responsive-web-design"
+                        target="_blank"
+                      >
+                        freecodecamp.org/certification/NguyenHaiPhucNguyen/responsive-web-design
+                      </a>
+                    </p>
+                    <p>
+                      <strong>React State Manager:</strong>
+                      <br />
 
-                    <a
-                      href="https://www.udemy.com/certificate/UC-3526ee15-8c15-4e46-b35a-e866e7bfbcee/"
-                      target="_blank"
-                    >
-                      udemy.com/certificate/UC-3526ee15-8c15-4e46-b35a-e866e7bfbcee/
-                    </a>
-                  </p>
-                  <p>
-                    <strong>React Ultimate:</strong>
-                    <br />
-                    <a
-                      href="https://www.udemy.com/certificate/UC-da9f2ead-b7c6-44ca-ac58-f0d48c069a70/"
-                      target="_blank"
-                    >
-                      udemy.com/certificate/UC-da9f2ead-b7c6-44ca-ac58-f0d48c069a70/
-                    </a>
-                  </p>
+                      <a
+                        href="https://www.udemy.com/certificate/UC-3526ee15-8c15-4e46-b35a-e866e7bfbcee/"
+                        target="_blank"
+                      >
+                        udemy.com/certificate/UC-3526ee15-8c15-4e46-b35a-e866e7bfbcee/
+                      </a>
+                    </p>
+                    <p>
+                      <strong>React Ultimate:</strong>
+                      <br />
+                      <a
+                        href="https://www.udemy.com/certificate/UC-da9f2ead-b7c6-44ca-ac58-f0d48c069a70/"
+                        target="_blank"
+                      >
+                        udemy.com/certificate/UC-da9f2ead-b7c6-44ca-ac58-f0d48c069a70/
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
